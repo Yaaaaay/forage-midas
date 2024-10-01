@@ -17,6 +17,58 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+		<version>3.2.5</version>
+	</dependency>
+
+	<dependency>
+		<artifactId>spring-boot-starter-web</artifactId>
+		<groupId>org.springframework.boot</groupId>
+		<version>3.2.5</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.springframework.kafka</groupId>
+		<artifactId>spring-kafka</artifactId>
+		<version>3.1.4</version>
+	</dependency>
+
+	<dependency>
+		<artifactId>h2</artifactId>
+		<groupId>com.h2database</groupId>
+		<version>2.2.224</version>
+		<scope>runtime</scope>
+	</dependency>
+
+	<dependency>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<groupId>org.springframework.boot</groupId>
+		<version>3.2.5</version>
+		<scope>test</scope>
+	</dependency>
+	
+	<dependency>
+		<artifactId>spring-kafka-test</artifactId>
+		<groupId>org.springframework.kafka</groupId>
+		<version>3.1.4</version>
+		<scope>test</scope>
+	</dependency>
+
+	<dependency>
+		<artifactId>kafka</artifactId>
+		<groupId>org.testcontainers</groupId>
+		<version>1.19.1</version>
+		<scope>test</scope>
+	</dependency>
+
 	</dependencies>
 
 	<build>
