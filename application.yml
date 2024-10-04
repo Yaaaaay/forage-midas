@@ -11,4 +11,5 @@ spring:
         spring.json.trusted.packages: '*'
 
 general:
-  kafka-topic: your-topic-name
+  kafka-topic: forage
+  kafka-group-id: forageGroup
