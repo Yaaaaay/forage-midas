@@ -25,3 +25,6 @@ spring:
 general:
   kafka-topic: forage
   kafka-group-id: forageGroup
+
+server: 
+  port: 33400
